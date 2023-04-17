@@ -1,0 +1,31 @@
+.authentication{
+  height : 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/*common styling*/
+.card{
+  box-sizing: 0 0 px gray;
+  border-radius: 5px;
+}
+.card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.normal-text{
+  font-size : 1rem;
+}
+.authentication-form{
+  width: 400px;
+  border-radius: 15px;
+}
+
+/*antD ovverride*/
+input{
+  border-radius: 25px !important;
+  border: .5px solid gray !important;
+  height: 40px !important;
+}
